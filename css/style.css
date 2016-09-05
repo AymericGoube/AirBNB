@@ -133,6 +133,7 @@ body{
 }
 #bodycolor{
   background-color: #EDEFED;
+  padding-bottom: 25px;
 }
 .ontry{
   background-color: #EDEFED;
@@ -151,9 +152,6 @@ body{
   text-align: center;
   padding-top: 50px;
   height: 344px;
-}
-.carousel{
-  margin-top: 25px;
 }
 .carousel #description p{
   color: rgb(72, 72, 72);
@@ -233,7 +231,6 @@ body{
   background-repeat: no-repeat;
   height: 326px;
   background-size: cover;
-
 }
 .romantic{
   background-image: url("../gallery/romantic.jpeg");
@@ -252,29 +249,22 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 326px;
-  width: 680px;
-  margin-left: 35px;
 }
 .berlin{
   background-image: url("../gallery/berlin.jpeg");
   background-repeat: no-repeat;
   height: 326px;
-  width: 344px;
 }
 .bordeaux{
   background-image: url("../gallery/bordeaux.jpeg");
   background-repeat: no-repeat;
   height: 326px;
-  width: 344px;
-  margin: 0px 0px 0px 35px;
 
 }
 .biarritz{
   background-image: url("../gallery/biarritz.jpg");
   background-repeat: no-repeat;
   height: 326px;
-  width: 344px;
-  margin-left: 55px;
   background-size: cover;
 }
 .sanfrancisco{
@@ -503,6 +493,12 @@ width: 100%;
   }
   .selecteurposition{
     margin-top: 15%;
+  }
+  .container{
+    width: 100%;
+  }
+  .txtphoto{
+    margin-top: 0px;
   }
 
 
